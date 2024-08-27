@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="15F0E38C-ECDA-F3CA-809D-A4B35DFF5B15" containerWithKeyObject="9DBDA9E0-FB32-B189-F102-E5E7A47910B6" localFKIndex="4A2479BD-B16B-D179-FEEE-DA028BE85C34" name="VARIEDAD_ESPECIE_FK">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:09:40 UTC</createdTime>
+<generatorID>06DB2093-969F-C4A2-076E-7183917C02FA</generatorID>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<referredTableLongName>ESPECIE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>51134917-F34B-F06C-F903-ABC5964728E1</referredTableID>
+<keyObject>EC6BECF4-C7A3-3D0D-8B85-49843F1267A1</keyObject>
+<referredKeyID>EC6BECF4-C7A3-3D0D-8B85-49843F1267A1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NOMBRE_CIENTIFICO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

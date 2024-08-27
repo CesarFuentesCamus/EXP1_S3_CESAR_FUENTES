@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="718EB582-72C5-38C4-D0BA-0D4F7355B631" name="VARIEDAD">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:04:09 UTC</createdTime>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<engineerTo>
+<item key="F33373D2-A20A-1239-9F59-BDDAD1026DB9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_VARIEDAD" id="6614C74E-1971-6173-7BC2-7A3FEBBA34D5">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:04:15 UTC</createdTime>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<engineerTo>
+<item key="F33373D2-A20A-1239-9F59-BDDAD1026DB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COLOR" id="50A7F642-BDF6-82DC-4CE0-08F338A26839">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:04:25 UTC</createdTime>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<engineerTo>
+<item key="F33373D2-A20A-1239-9F59-BDDAD1026DB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SABOR" id="4EF6CAE9-960B-6D49-D450-097844C04426">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:04:39 UTC</createdTime>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<engineerTo>
+<item key="F33373D2-A20A-1239-9F59-BDDAD1026DB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OLOR" id="3A5FA6DE-262C-30D6-56B8-93D77F509EAB">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:04:50 UTC</createdTime>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<engineerTo>
+<item key="F33373D2-A20A-1239-9F59-BDDAD1026DB9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_CIENTIFICO" id="CDA073EE-9231-4CEF-9F4D-30C93A1292F0">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:07:03 UTC</createdTime>
+<generatorID>06DB2093-969F-C4A2-076E-7183917C02FA</generatorID>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<engineerTo>
+<item key="F33373D2-A20A-1239-9F59-BDDAD1026DB9" value="true"/>
+</engineerTo>
+<referedAttribute>99D09A3B-059D-EF09-B018-04626A2B0164</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2BF5781E-B4E8-5B7C-FC25-D747AB457B2F" name="VARIEDAD PK">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:04:24 UTC</createdTime>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<engineerTo>
+<item key="F33373D2-A20A-1239-9F59-BDDAD1026DB9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6614C74E-1971-6173-7BC2-7A3FEBBA34D5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B78729B3-556D-EC8D-272D-F16CFECB6B81" containerWithKeyObject="3CF06B88-B837-77E4-EA66-40556F806E35" localFKIndex="20B6FDD9-2367-121C-DC38-32D47AD38962" name="REGISTRO_ARBOLES_REGISTRO_FK">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:09:40 UTC</createdTime>
+<generatorID>001049CE-C9D9-3077-018C-89B813719FFA</generatorID>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<referredTableLongName>REGISTRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>957A258C-DE80-1476-BFC3-F3638A9B9FCF</referredTableID>
+<keyObject>F7E20057-DB5F-32A4-6185-D4E1BE5BE2EB</keyObject>
+<referredKeyID>F7E20057-DB5F-32A4-6185-D4E1BE5BE2EB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_REGISTRO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

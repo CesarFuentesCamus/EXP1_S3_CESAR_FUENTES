@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CE9CDC65-73C3-E6E3-FEF5-8A1DF8BAED70" containerWithKeyObject="DE05AA16-1D49-DC54-097F-39B9CFFC0EE6" localFKIndex="2CB01554-A1E8-9AA8-68A7-DE10F5F3CB51" name="ARBOL_VARIEDAD_FK">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:09:40 UTC</createdTime>
+<generatorID>40AF9AEB-F512-79EB-7D48-1C2166FFA9D8</generatorID>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<referredTableLongName>VARIEDAD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9DBDA9E0-FB32-B189-F102-E5E7A47910B6</referredTableID>
+<keyObject>859F6323-7B68-9916-E7C9-2C3414D8E870</keyObject>
+<referredKeyID>859F6323-7B68-9916-E7C9-2C3414D8E870</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_VARIEDAD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

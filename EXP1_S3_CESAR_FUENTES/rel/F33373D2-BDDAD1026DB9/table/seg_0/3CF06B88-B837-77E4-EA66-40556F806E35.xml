@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CF06B88-B837-77E4-EA66-40556F806E35" name="REGISTRO_ARBOLES">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:09:40 UTC</createdTime>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REGISTRO_ID_REGISTRO" id="8D5CC89F-8DBB-0BC6-C08B-24B36C18B1EB">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:09:40 UTC</createdTime>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B78729B3-556D-EC8D-272D-F16CFECB6B81" referredColumn="DB0AFD4D-5948-2D7F-3A71-8173B5670D53"/>
+</associations>
+</Column>
+<Column name="ARBOL_ID_ARBOL" id="318B751A-1212-3167-C2FA-46FCE4E00502">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:09:40 UTC</createdTime>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CDF9154-34FF-4FCF-F405-03A78EAE0793" referredColumn="D4B6B8DB-22BB-3303-7620-E5A4976C7BAD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C82EE35B-FE7D-EF58-AFE7-D00A655DD1DA" name="REGISTRO_ARBOLES_PK">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:09:40 UTC</createdTime>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D5CC89F-8DBB-0BC6-C08B-24B36C18B1EB"/>
+<colUsage columnID="318B751A-1212-3167-C2FA-46FCE4E00502"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20B6FDD9-2367-121C-DC38-32D47AD38962" name="REGISTRO_ARBOLES_REGISTRO_FK">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:09:40 UTC</createdTime>
+<generatorID>001049CE-C9D9-3077-018C-89B813719FFA</generatorID>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D5CC89F-8DBB-0BC6-C08B-24B36C18B1EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE3E7B9B-1C0E-E361-0FC0-EE37B9C8860C" name="REGISTRO_ARBOLES_ARBOL_FK">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:09:40 UTC</createdTime>
+<generatorID>001049CE-C9D9-3077-018C-89B813719FFA</generatorID>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="318B751A-1212-3167-C2FA-46FCE4E00502"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE05AA16-1D49-DC54-097F-39B9CFFC0EE6" name="ARBOL">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:09:40 UTC</createdTime>
+<generatorID>06210FCD-CCDA-D453-82B5-EE0C0C331226</generatorID>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ARBOL" id="D4B6B8DB-22BB-3303-7620-E5A4976C7BAD">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:09:40 UTC</createdTime>
+<generatorID>95BA562B-20A9-5858-14D2-80B4567737FF</generatorID>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_PLANTADO" id="2A93F70B-FE1D-97DB-AEC4-24D5A7F58F33">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:09:40 UTC</createdTime>
+<generatorID>EE307ACD-2FEE-6672-458B-60C98DACBC8D</generatorID>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_MUERTE" id="4F17038A-8D03-8C8C-6AD1-E32788FA9565">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:09:40 UTC</createdTime>
+<generatorID>8390D191-8C0B-C015-9820-D773ACA521B2</generatorID>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HUERTO_AREA" id="D5CE10A5-0555-DD5E-5741-20406B3EF59E">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:09:40 UTC</createdTime>
+<generatorID>F42E3531-6F37-3A1C-C449-660D473317F7</generatorID>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9678D079-E735-61B2-B7CE-96FB1800A395" referredColumn="69B80350-4602-A5B2-061A-49B1D29D969F"/>
+</associations>
+</Column>
+<Column name="ESPECIE_NOMBRE_CIENTIFICO" id="93ABA80B-7A38-12FC-A19C-03ACB4F66EA5">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:09:40 UTC</createdTime>
+<generatorID>289A8E85-DCF8-DE6B-771E-394E6C7452CE</generatorID>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74DF4A22-261A-FD83-1FE4-AB5EC57357EB" referredColumn="F660193F-2873-C82D-AD43-94350A611262"/>
+</associations>
+</Column>
+<Column name="VARIEDAD_ID_VARIEDAD" id="7C1A8D0C-7E2B-211A-2B63-B97DA77E9946">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:09:40 UTC</createdTime>
+<generatorID>902E5488-B7D0-914A-0BBE-C5E0C509AE19</generatorID>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE9CDC65-73C3-E6E3-FEF5-8A1DF8BAED70" referredColumn="F21B9474-7AD3-6E59-03B3-68726452B642"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7A27DB2-0E27-CC2F-B7C3-FA14DE9F0A5A" name="ARBOL_PK">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:09:40 UTC</createdTime>
+<generatorID>E6567FEB-15EF-E723-71EE-1A31F85E7DC1</generatorID>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4B6B8DB-22BB-3303-7620-E5A4976C7BAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68DA51A4-BC32-FD81-9E84-247400DA4149" name="ARBOL__IDX">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:09:40 UTC</createdTime>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>40AF9AEB-F512-79EB-7D48-1C2166FFA9D8</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7C1A8D0C-7E2B-211A-2B63-B97DA77E9946"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04FF608C-CF94-BC43-9C65-95048F3BBF32" name="ARBOL_ESPECIE_FK">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:09:40 UTC</createdTime>
+<generatorID>E88EF345-13AA-09A7-EB50-CE7E060C48AC</generatorID>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93ABA80B-7A38-12FC-A19C-03ACB4F66EA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5EE48DD0-C3DD-D9AB-4AAB-01818F862DD6" name="ARBOL_HUERTO_FK">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:09:40 UTC</createdTime>
+<generatorID>BDB19B84-DC2F-1CAE-1037-20470C08AF8A</generatorID>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5CE10A5-0555-DD5E-5741-20406B3EF59E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2CB01554-A1E8-9AA8-68A7-DE10F5F3CB51" name="ARBOL_VARIEDAD_FK">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:09:40 UTC</createdTime>
+<generatorID>40AF9AEB-F512-79EB-7D48-1C2166FFA9D8</generatorID>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C1A8D0C-7E2B-211A-2B63-B97DA77E9946"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

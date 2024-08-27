@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="06210FCD-CCDA-D453-82B5-EE0C0C331226" name="ARBOL">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:00:59 UTC</createdTime>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<engineerTo>
+<item key="F33373D2-A20A-1239-9F59-BDDAD1026DB9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ARBOL" id="95BA562B-20A9-5858-14D2-80B4567737FF">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:01:19 UTC</createdTime>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<engineerTo>
+<item key="F33373D2-A20A-1239-9F59-BDDAD1026DB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_PLANTADO" id="EE307ACD-2FEE-6672-458B-60C98DACBC8D">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:01:34 UTC</createdTime>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<engineerTo>
+<item key="F33373D2-A20A-1239-9F59-BDDAD1026DB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_MUERTE" id="8390D191-8C0B-C015-9820-D773ACA521B2">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:01:50 UTC</createdTime>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<engineerTo>
+<item key="F33373D2-A20A-1239-9F59-BDDAD1026DB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AREA" id="F42E3531-6F37-3A1C-C449-660D473317F7">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:06:26 UTC</createdTime>
+<generatorID>BDB19B84-DC2F-1CAE-1037-20470C08AF8A</generatorID>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<engineerTo>
+<item key="F33373D2-A20A-1239-9F59-BDDAD1026DB9" value="true"/>
+</engineerTo>
+<referedAttribute>5044984F-1519-E993-F5A2-FE3951D63294</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_CIENTIFICO" id="289A8E85-DCF8-DE6B-771E-394E6C7452CE">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:06:47 UTC</createdTime>
+<generatorID>E88EF345-13AA-09A7-EB50-CE7E060C48AC</generatorID>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<engineerTo>
+<item key="F33373D2-A20A-1239-9F59-BDDAD1026DB9" value="true"/>
+</engineerTo>
+<referedAttribute>99D09A3B-059D-EF09-B018-04626A2B0164</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_VARIEDAD" id="902E5488-B7D0-914A-0BBE-C5E0C509AE19">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:07:19 UTC</createdTime>
+<generatorID>40AF9AEB-F512-79EB-7D48-1C2166FFA9D8</generatorID>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<engineerTo>
+<item key="F33373D2-A20A-1239-9F59-BDDAD1026DB9" value="true"/>
+</engineerTo>
+<referedAttribute>6614C74E-1971-6173-7BC2-7A3FEBBA34D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E6567FEB-15EF-E723-71EE-1A31F85E7DC1" name="ARBOL PK">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:01:33 UTC</createdTime>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<engineerTo>
+<item key="F33373D2-A20A-1239-9F59-BDDAD1026DB9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>95BA562B-20A9-5858-14D2-80B4567737FF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

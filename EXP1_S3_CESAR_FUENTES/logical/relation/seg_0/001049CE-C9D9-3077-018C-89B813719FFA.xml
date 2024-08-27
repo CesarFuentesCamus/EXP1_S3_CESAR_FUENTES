@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REGISTRO_ARBOLES" directorySegmentName="seg_0" id="001049CE-C9D9-3077-018C-89B813719FFA">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:07:58 UTC</createdTime>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<engineerTo>
+<item key="F33373D2-A20A-1239-9F59-BDDAD1026DB9" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C6804980-0034-D468-A59D-F98237BA4675</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>06210FCD-CCDA-D453-82B5-EE0C0C331226</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

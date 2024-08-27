@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="AAF70EAA-51DF-B116-E744-67E9E6C1255B" mainViewID="B35507F5-7B4C-4245-9A1B-2008904A79E5">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 00:58:17 UTC</createdTime>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

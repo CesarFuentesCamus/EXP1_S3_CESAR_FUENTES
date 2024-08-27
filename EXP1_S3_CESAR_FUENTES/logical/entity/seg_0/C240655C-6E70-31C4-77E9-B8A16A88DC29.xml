@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C240655C-6E70-31C4-77E9-B8A16A88DC29" name="ESPECIE">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:02:43 UTC</createdTime>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<engineerTo>
+<item key="F33373D2-A20A-1239-9F59-BDDAD1026DB9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NOMBRE_CIENTIFICO" id="99D09A3B-059D-EF09-B018-04626A2B0164">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:02:52 UTC</createdTime>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<engineerTo>
+<item key="F33373D2-A20A-1239-9F59-BDDAD1026DB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_COMUN" id="F5D0D0AD-0AF9-CDD5-74CF-BFC8122C1358">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:03:07 UTC</createdTime>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<engineerTo>
+<item key="F33373D2-A20A-1239-9F59-BDDAD1026DB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_DE_FRUTO" id="4BCC9667-39A7-EB56-056D-C9434E257600">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:03:25 UTC</createdTime>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<engineerTo>
+<item key="F33373D2-A20A-1239-9F59-BDDAD1026DB9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REQUERIMIENTOS_CLIMATICOS" id="A6E5E438-3277-3641-6B59-ADAF68089BD1">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:03:51 UTC</createdTime>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<engineerTo>
+<item key="F33373D2-A20A-1239-9F59-BDDAD1026DB9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B99C6B46-75CD-A58B-84B3-F675DE052E8A" name="ESPECIE PK">
+<createdBy>fuent</createdBy>
+<createdTime>2024-08-27 01:03:06 UTC</createdTime>
+<ownerDesignName>EXP1_S3_CESAR_FUENTES</ownerDesignName>
+<engineerTo>
+<item key="F33373D2-A20A-1239-9F59-BDDAD1026DB9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>99D09A3B-059D-EF09-B018-04626A2B0164</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
